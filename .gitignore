@@ -1,0 +1,49 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+*.log
+
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Coverage reports
+coverage/
+
+# Dependency directories for monorepo
+client/node_modules/
+server/node_modules/
+
+# React specific
+*.cache
+*.parcel-cache
+*.eslintcache
+
+# Express specific
+*.pid
+*.seed
+*.sqlite
+*.db
+
+# Optional: lock files if you want to ignore them
+# yarn.lock
+# package-lock.json
