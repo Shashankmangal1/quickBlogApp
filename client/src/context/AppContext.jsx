@@ -31,8 +31,9 @@ export const AppProvider = ({ children })=>{
         if(token){
             setToken(token)
             axios.defaults.headers.common['Authorization'] =  `${token}`;
+            fetchBlogs
         }   
-    },[])
+    }, [])
 
     const value = {
         axios, navigate, token, setToken, blogs, setBlogs, input, setInput
